@@ -1,7 +1,7 @@
 export default {
   global: {
     numeroUnidad: '3',
-    tituloUnidad: 'Bioética y sostenibilidad en el desarrollo económico global',
+    tituloUnidad: 'Aplicaciones avanzadas de la Investigación de Operaciones',
   },
   menuPrincipal: {
     menu: [

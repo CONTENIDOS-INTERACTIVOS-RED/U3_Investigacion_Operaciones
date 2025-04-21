@@ -1,10 +1,100 @@
 <template lang="pug">
   .curso-main-container.pb-3
-    BannerInterno(:subTitulo="'3. Título tema'")
+    BannerInterno(:subTitulo="'3. Aplicaciones empresariales'")
     .container.tarjeta.tarjeta--blanca.p-4.p-md-5.overflow-hidden
   
+
+      .row.mb-5
+        .col-lg-8
+          p(data-aos="fade-left").mb-4 La programación lineal y la investigación de operaciones tienen una gran relevancia en el mundo empresarial, ya que permiten optimizar recursos, reducir costos y mejorar la eficiencia en distintos sectores. Su aplicación es fundamental en áreas como la logística, la planeación de la producción y la gestión de inventarios, entre otras.
+      
+          .bg-color-3.p-4(data-aos="fade-left").mb-4
+            .row.align-items-start
+              .col-lg-auto
+                img(src="@/assets/curso/tema3/1.svg", style="max-width: 90px").mx-auto
+              .col-lg
+                p.mb-0 La toma de decisiones basada en modelos matemáticos permite a las empresas lograr una mejor asignación de recursos, incrementar la rentabilidad y reducir costos operativos (Hillier & Lieberman, 2010).
+      
+          p(data-aos="fade-left").mb-4 A continuación, se presentan casos prácticos en distintas áreas empresariales, así como el uso de software especializado como WinQSB, una herramienta que facilita la resolución de problemas complejos en la optimización de procesos (Taha, 2012).
+      
+        .col-lg-4
+          figure
+            img(src="@/assets/curso/tema3/2.png", data-aos="zoom-in")
+      
+
       #t_3_1.titulo-segundo(data-aos="flip-up")
-        h2 #[span 3.1] Subtítulo tema
+        h2 #[span 3.1] Casos prácticos en áreas como logística, planeación de la producción y gestión de inventarios 
+
+
+      .row.mb-5
+        .col-lg-5
+          figure
+            img(src="@/assets/curso/tema3/4.png", data-aos="zoom-in")
+        .col-lg-7
+          .bg-color-2.p-4(data-aos="fade-left").mb-4
+            p.mb-0 Los modelos de programación lineal y optimización, tienen una amplia aplicación en la gestión empresarial. Su implementación permite a las organizaciones maximizar la eficiencia operativa, reducir costos y mejorar la asignación de recursos en sectores claves como logística, producción e inventarios (Hillier & Lieberman, 2010).
+      
+          p(data-aos="fade-left").mb-4 A continuación, se presentan casos prácticos que muestran cómo estos modelos pueden aplicarse en la toma de decisiones estratégicas.
+      
+      
+
+      .row.align-items-center.mb-5
+        .col-lg-8.order-2.order-lg-1
+      
+          LineaTiempoD.color-primario.large(data-aos="fade-right")
+            div(numero="1" titulo="Título paso 1")
+              p Contenido paso 1
+            div(numero="2" titulo="Título paso 2")
+              p Contenido paso 2
+            div(numero="3" titulo="Título paso 3")
+              p Contenido paso 3
+          
+        .col-lg-4.order-1.order-lg-2
+          figure
+            img(src="@/assets/curso/tema3/3.png", alt="", data-aos="zoom-in").mb-4.mb-lg-0
+
+
+
+      #t_3_2.titulo-segundo(data-aos="flip-up")
+        h2 #[span 3.2] Uso de software especializado como WinQSB para resolver problemas complejos 
+
+
+      p El uso de herramientas computacionales en la optimización de procesos empresariales ha revolucionado la toma de decisiones en diversas áreas. WinQSB es un software especializado que permite modelar y resolver problemas complejos de programación lineal, transporte, asignación y gestión de inventarios, facilitando el análisis y optimización de recursos en entornos empresariales.
+      
+      h2.mb-4 Fundamentos de la Programación Lineal en la distribución de recursos
+
+      .row.mb-5
+        .col-lg-4
+          figure
+            img(src="@/assets/curso/tema3/5.png", data-aos="zoom-in")
+        .col-lg-8
+          .bg-color-3.p-4(data-aos="fade-left").mb-4
+            p.mb-2 WinQSB (Quantitative Systems for Business) es una herramienta de apoyo para la toma de decisiones cuantitativas en el ámbito empresarial. Fue desarrollado para resolver problemas de investigación de operaciones utilizando modelos matemáticos avanzados de optimización.
+
+            p.mb-2 Características principales:
+
+            ul.lista-ul--color.color-dark.mb-4
+              li.mb-0
+                i.fas.fa-arrow-circle-right
+                | Interfaz intuitiva que permite ingresar y analizar datos de manera sencilla.
+              li.mb-0
+                i.fas.fa-arrow-circle-right
+                | Resolución de problemas de programación lineal, entera y no lineal.
+              li.mb-0
+                i.fas.fa-arrow-circle-right
+                | Modelos de transporte, asignación y planificación de inventarios.
+              li.mb-0
+                i.fas.fa-arrow-circle-right
+                | Simulación de procesos de producción y logística.
+              li.mb-0
+                i.fas.fa-arrow-circle-right
+                | Análisis de decisiones basado en modelos matemáticos precisos.
+            
+
+            
+      
+
+      
 
       .bg-full-width.border-top.actividad.bg-color-actividad
         .p-4.p-md-5
