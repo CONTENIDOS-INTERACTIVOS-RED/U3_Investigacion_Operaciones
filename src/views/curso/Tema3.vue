@@ -114,79 +114,84 @@
 
       p El uso de herramientas computacionales en la optimización de procesos empresariales ha revolucionado la toma de decisiones en diversas áreas. WinQSB es un software especializado que permite modelar y resolver problemas complejos de programación lineal, transporte, asignación y gestión de inventarios, facilitando el análisis y optimización de recursos en entornos empresariales.
       
-      h2.mb-4 Fundamentos de la Programación Lineal en la distribución de recursos
 
-      .row.mb-2
-        .col-lg-4
-          figure
-            img(src="@/assets/curso/tema3/5.png", data-aos="zoom-in")
-        .col-lg-8
-          .bg-color-3.p-4(data-aos="fade-left").mb-4
-            p.mb-4 WinQSB (Quantitative Systems for Business) es una herramienta de apoyo para la toma de decisiones cuantitativas en el ámbito empresarial. Fue desarrollado para resolver problemas de #[strong investigación de operaciones] utilizando modelos matemáticos avanzados de optimización.
+      .bg-full-width-2.bg-fondo-5
+        .px-4.px-md-5
+          h2.mb-4 Fundamentos de la Programación Lineal en la distribución de recursos
 
-            p.mb-1 #[strong Características principales:] 
+          .row.mb-2
+            .col-lg-4
+              figure
+                img(src="@/assets/curso/tema3/5.png", data-aos="zoom-in")
+            .col-lg-8
+              .bg-color-3.p-4(data-aos="fade-left").mb-4
+                p.mb-4 WinQSB (Quantitative Systems for Business) es una herramienta de apoyo para la toma de decisiones cuantitativas en el ámbito empresarial. Fue desarrollado para resolver problemas de #[strong investigación de operaciones] utilizando modelos matemáticos avanzados de optimización.
 
-            ul.lista-ul--color.color-dark.mb-5
-              li.mb-0
-                i.fas.fa-arrow-circle-right
-                | Interfaz intuitiva que permite ingresar y analizar datos de manera sencilla.
-              li.mb-0
-                i.fas.fa-arrow-circle-right
-                | Resolución de problemas de programación lineal, entera y no lineal.
-              li.mb-0
-                i.fas.fa-arrow-circle-right
-                | Modelos de transporte, asignación y planificación de inventarios.
-              li.mb-0
-                i.fas.fa-arrow-circle-right
-                | Simulación de procesos de producción y logística.
-              li.mb-0
-                i.fas.fa-arrow-circle-right
-                | Análisis de decisiones basado en modelos matemáticos precisos.
+                p.mb-1 #[strong Características principales:] 
 
-      p WinQSB permite encontrar soluciones óptimas en problemas empresariales que involucran múltiples restricciones y variables, facilitando la toma de decisiones estratégicas y operativas (Hillier & Lieberman, 2010).
+                ul.lista-ul--color.color-dark.mb-5
+                  li.mb-0
+                    i.fas.fa-arrow-circle-right
+                    | Interfaz intuitiva que permite ingresar y analizar datos de manera sencilla.
+                  li.mb-0
+                    i.fas.fa-arrow-circle-right
+                    | Resolución de problemas de programación lineal, entera y no lineal.
+                  li.mb-0
+                    i.fas.fa-arrow-circle-right
+                    | Modelos de transporte, asignación y planificación de inventarios.
+                  li.mb-0
+                    i.fas.fa-arrow-circle-right
+                    | Simulación de procesos de producción y logística.
+                  li.mb-0
+                    i.fas.fa-arrow-circle-right
+                    | Análisis de decisiones basado en modelos matemáticos precisos.
 
-      p El software WinQSB se aplica en diversas áreas empresariales, entre las que destacan:
+          p WinQSB permite encontrar soluciones óptimas en problemas empresariales que involucran múltiples restricciones y variables, facilitando la toma de decisiones estratégicas y operativas (Hillier & Lieberman, 2010).
 
-      div.row.justify-content-center.align-items-stretch.mb-4
-        .col-lg-3.mb-4(data-aos="zoom-in-up")
-          div.bg-color-white.box-shadow.px-4.py-5.h-100
-            img.mx-auto.d-block.mb-4(
-              src="@/assets/curso/tema3/6.svg"
-              alt=""
-              style="width: 90px"
-            )
-            h4.text-center Primero
-            p.mb-0.text-center Optimización de rutas y distribución en logística.
-      
-        .col-lg-3.mb-4(data-aos="zoom-in-up")
-          div.bg-color-white.box-shadow.px-4.py-5.h-100
-            img.mx-auto.d-block.mb-4(
-              src="@/assets/curso/tema3/7.svg"
-              alt=""
-              style="width: 90px"
-            )
-            h4.text-center Segundo
-            p.mb-0.text-center Gestión eficiente de inventarios y control de abastecimiento.
-      
-        .col-lg-3.mb-4(data-aos="zoom-in-up")
-          div.bg-color-white.box-shadow.px-4.py-5.h-100
-            img.mx-auto.d-block.mb-4(
-              src="@/assets/curso/tema3/8.svg"
-              alt=""
-              style="width: 90px"
-            )
-            h4.text-center Tercero
-            p.mb-0.text-center Planeación y programación de la producción en fábricas.
-      
-        .col-lg-3.mb-4(data-aos="zoom-in-up")
-          div.bg-color-white.box-shadow.px-4.py-5.h-100
-            img.mx-auto.d-block.mb-4(
-              src="@/assets/curso/tema3/9.svg"
-              alt=""
-              style="width: 90px"
-            )
-            h4.text-center Cuarto
-            p.mb-0.text-center ROptimización de costos y asignación de recursos en proyectos empresariales.
+          p El software WinQSB se aplica en diversas áreas empresariales, entre las que destacan:
+
+          div.row.justify-content-center.align-items-stretch.mb-4
+            .col-lg-3.mb-4(data-aos="zoom-in-up")
+              div.bg-color-white.box-shadow.px-4.py-5.h-100
+                img.mx-auto.d-block.mb-4(
+                  src="@/assets/curso/tema3/6.svg"
+                  alt=""
+                  style="width: 90px"
+                )
+                h4.text-center Primero
+                p.mb-0.text-center Optimización de rutas y distribución en logística.
+          
+            .col-lg-3.mb-4(data-aos="zoom-in-up")
+              div.bg-color-white.box-shadow.px-4.py-5.h-100
+                img.mx-auto.d-block.mb-4(
+                  src="@/assets/curso/tema3/7.svg"
+                  alt=""
+                  style="width: 90px"
+                )
+                h4.text-center Segundo
+                p.mb-0.text-center Gestión eficiente de inventarios y control de abastecimiento.
+          
+            .col-lg-3.mb-4(data-aos="zoom-in-up")
+              div.bg-color-white.box-shadow.px-4.py-5.h-100
+                img.mx-auto.d-block.mb-4(
+                  src="@/assets/curso/tema3/8.svg"
+                  alt=""
+                  style="width: 90px"
+                )
+                h4.text-center Tercero
+                p.mb-0.text-center Planeación y programación de la producción en fábricas.
+          
+            .col-lg-3.mb-4(data-aos="zoom-in-up")
+              div.bg-color-white.box-shadow.px-4.py-5.h-100
+                img.mx-auto.d-block.mb-4(
+                  src="@/assets/curso/tema3/9.svg"
+                  alt=""
+                  style="width: 90px"
+                )
+                h4.text-center Cuarto
+                p.mb-0.text-center ROptimización de costos y asignación de recursos en proyectos empresariales.
+
+
       h2.mb-4 Ejemplo práctico:
       .row.mb-5
         .col-lg-8
@@ -285,15 +290,11 @@
   
               p.d-flex.my-4
                 img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-                a(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/274611" target="_blank" rel="noopener noreferrer") De Castro Emilio Cerdá, F. J. A. L. M. (s/f). Las energías renovables en el ámbito internacional. Revistasice.com. 
-  
-              p.d-flex.my-4
-                img.me-3(src='@/assets/template/book.svg' :style="{'max-width':'16px'}")
-                span De Janeiro, R. (1992). La declaración del Río sobre el Medio Ambiente y el Desarrollo. Río de Janeiro República Federativa del Brasil., aprobada en Estocolmo el, 16.
-  
+                a(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/51571" target="_blank" rel="noopener noreferrer") Quesada Ibarguen, V. M. (2012). Análisis cuantitativo con Winqsb: ( ed.). B - EUMED. 
+
               p.d-flex.my-4
                 img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
-                a(href="https://youtu.be/QKLjwCMyv3M?si=uAWhO9tnyghljaJg" target="_blank" rel="noopener noreferrer") Innovación y sostenibilidad.
+                a(href="https://www.youtube.com/watch?v=eWULmSLfu3E" target="_blank" rel="noopener noreferrer") GOAL PROJECT. (2020, 22 de marzo). Introducción a la Administración de Inventarios.
   
             .col-12.col-md-6.col-lg-3.offset-lg-1
               figure
@@ -320,28 +321,28 @@ export default {
           {
             id: 1,
             texto:
-              '¿Cuál de las siguientes es una característica fundamental de los derechos humanos?',
+              'Complete los espacios en blanco con las opciones correctas: "La Programación Lineal permite optimizar _______________ en la toma de decisiones. Su aplicación principal es la resolución de problemas de _______________ y _______________ utilizando modelos matemáticos."',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
               {
                 id: 'a',
-                texto: 'Son temporales y cambiantes',
+                texto: 'Beneficios, dualidad, economía',
                 esCorrecta: false,
               },
               {
                 id: 'b',
-                texto: 'Son universales y aplican a todas las personas',
+                texto: 'Recursos, maximización, minimización',
                 esCorrecta: true,
               },
               {
                 id: 'c',
-                texto: 'Son exclusivos de ciertos grupos',
+                texto: 'Factores, programación no lineal, restricciones',
                 esCorrecta: false,
               },
               {
                 id: 'd',
-                texto: 'Son opcionales',
+                texto: 'Costos, expansión, desarrollo',
                 esCorrecta: false,
               },
             ],
@@ -351,28 +352,31 @@ export default {
           {
             id: 2,
             texto:
-              '¿Cuál de las siguientes afirmaciones sobre la diversidad cultural es correcta?',
+              '¿Cuál de las siguientes afirmaciones describe mejor la función del método Simplex?',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
               {
                 id: 'a',
-                texto: 'Fomenta la homogeneización cultural',
+                texto:
+                  'Es un método gráfico para resolver problemas con dos variables.',
                 esCorrecta: false,
               },
               {
                 id: 'b',
-                texto: 'Promueve el respeto y la aceptación de las diferencias',
+                texto:
+                  'Es una técnica iterativa que encuentra soluciones óptimas en Programación Lineal.',
                 esCorrecta: true,
               },
               {
                 id: 'c',
-                texto: 'Debilita la identidad cultural de los pueblos',
+                texto: 'Solo se utiliza en problemas de maximización.',
                 esCorrecta: false,
               },
               {
                 id: 'd',
-                texto: 'Limita las oportunidades de interacción',
+                texto:
+                  'Permite resolver ecuaciones diferenciales en entornos económicos.',
                 esCorrecta: false,
               },
             ],
@@ -382,28 +386,18 @@ export default {
           {
             id: 3,
             texto:
-              'La mediación en un conflicto tiene como objetivo principal:',
+              'La región factible de un problema de Programación Lineal siempre contiene la solución óptima.',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
               {
                 id: 'a',
-                texto: 'Imponer una solución rápida',
-                esCorrecta: false,
-              },
-              {
-                id: 'b',
-                texto: 'Facilitar el diálogo entre las partes',
+                texto: 'Verdadero',
                 esCorrecta: true,
               },
               {
-                id: 'c',
-                texto: 'Determinar la culpabilidad',
-                esCorrecta: false,
-              },
-              {
-                id: 'd',
-                texto: 'Ignorar las preocupaciones de una parte',
+                id: 'b',
+                texto: 'Falso',
                 esCorrecta: false,
               },
             ],
@@ -412,64 +406,70 @@ export default {
           },
           {
             id: 4,
-            texto: 'En un foro comunitario, es importante:',
+            texto:
+              '¿Cuál de los siguientes conceptos se refiere a las cantidades que se deben determinar en un problema de Programación Lineal?',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
               {
                 id: 'a',
-                texto: 'Escuchar solo a las autoridades',
-                esCorrecta: false,
-              },
-              {
-                id: 'b',
-                texto: 'Fomentar la participación de todos los miembros',
+                texto: 'Variables de decisión',
                 esCorrecta: true,
               },
               {
+                id: 'b',
+                texto: 'Función objetivo',
+                esCorrecta: false,
+              },
+              {
                 id: 'c',
-                texto: 'Decidir por votación sin consultar a los demás',
+                texto: 'Restricciones',
                 esCorrecta: false,
               },
               {
                 id: 'd',
-                texto: 'Excluir las opiniones de los más jóvenes',
+                texto: 'Región factible',
                 esCorrecta: false,
               },
             ],
-            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+            mensaje_correcto:
+              '¡Correcto! Las variables de decisión son las cantidades desconocidas que se deben determinar para resolver el problema de Programación Lineal.',
+            mensaje_incorrecto:
+              'La respuesta no es correcta. Recuerda que las variables de decisión son las cantidades que necesitamos determinar en el problema.',
           },
           {
             id: 5,
             texto:
-              '¿Qué busca la justicia restaurativa en el contexto de un conflicto?',
+              '¿Qué representa la función objetivo en un problema de Programación Lineal?',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
               {
                 id: 'a',
-                texto: 'Aplicar una sanción severa',
+                texto: 'El conjunto de todas las soluciones posibles',
                 esCorrecta: false,
               },
               {
                 id: 'b',
-                texto: 'Reparar el daño y restablecer las relaciones',
-                esCorrecta: true,
+                texto: 'Las limitaciones del problema',
+                esCorrecta: false,
               },
               {
                 id: 'c',
-                texto: 'Castigar a las partes involucradas',
-                esCorrecta: false,
+                texto:
+                  'La expresión matemática que se busca maximizar o minimizar',
+                esCorrecta: true,
               },
               {
                 id: 'd',
-                texto: 'Ignorar el contexto del conflicto',
+                texto: 'El punto que optimiza la solución',
                 esCorrecta: false,
               },
             ],
-            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+            mensaje_correcto:
+              '¡Correcto! La función objetivo es la expresión matemática que queremos optimizar (maximizar o minimizar) en el problema de Programación Lineal.',
+            mensaje_incorrecto:
+              'La respuesta no es correcta. La función objetivo es la expresión matemática que buscamos optimizar en el problema.',
           },
         ],
         mensaje_final_aprobado:

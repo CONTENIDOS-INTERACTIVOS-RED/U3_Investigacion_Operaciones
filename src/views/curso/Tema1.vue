@@ -142,71 +142,73 @@
         figure
           img(src="@/assets/curso/tema1/4.png", data-aos="zoom-in").mb-4.mb-lg-0
 
-    TabsC.color-secundario.mb-5
-      .tabs-content.border.px-4.p-md-5.py-3(titulo="Dualidad débil" :icon="require('@/assets/bullets/icon-tab-c-1.svg')" )
-        .row
-          .col-md-6.col-lg-7.col-xl-8.mb-4.mb-md-0.order-2
-            h4 Dualidad débil
-            p La solución del problema dual nunca será menor que la solución del problema primal, en un problema de maximización.
-          .col-md-6.col-lg-5.col-xl-4.order-1
-            figure(data-aos="zoom-in")
-              img(src='@/assets/curso/tema1/6.png', alt='')
-    
-      .tabs-content.border.px-4.p-md-5.py-3(titulo="Dualidad fuerte" :icon="require('@/assets/bullets/icon-tab-c-1.svg')" )
-        .row
-          .col-md-6.col-lg-7.col-xl-8.mb-4.mb-md-0.order-2
-            h4 Dualidad fuerte
-            p Si ambos problemas tienen solución, entonces los valores óptimos de la función objetivo en el primal y el dual, son iguales.
-          .col-md-6.col-lg-5.col-xl-4.order-1
-            figure(data-aos="zoom-in")
-              img(src='@/assets/curso/tema1/7.png', alt='')
-    
-      .tabs-content.border.px-4.p-md-5.py-3(titulo="Condiciones de complementariedad" :icon="require('@/assets/bullets/icon-tab-c-1.svg')" )
-        .row
-          .col-md-6.col-lg-7.col-xl-8.mb-4.mb-md-0.order-2
-            h4 Condiciones de complementariedad 
-            p #[strong 1.] Si una restricción en el PRIMAL no es activa (no se usa todo el recurso disponible), su correspondiente variable DUAL será cero.
+    .bg-full-width-2.bg-fondo-1
+      .px-4.px-md-5
+        TabsC.color-secundario.mb-5
+          .tabs-content.border.px-4.p-md-5.py-3(titulo="Dualidad débil" :icon="require('@/assets/bullets/icon-tab-c-1.svg')" )
+            .row
+              .col-md-6.col-lg-7.col-xl-8.mb-4.mb-md-0.order-2
+                h4 Dualidad débil
+                p La solución del problema dual nunca será menor que la solución del problema primal, en un problema de maximización.
+              .col-md-6.col-lg-5.col-xl-4.order-1
+                figure(data-aos="zoom-in")
+                  img(src='@/assets/curso/tema1/6.png', alt='')
+        
+          .tabs-content.border.px-4.p-md-5.py-3(titulo="Dualidad fuerte" :icon="require('@/assets/bullets/icon-tab-c-1.svg')" )
+            .row
+              .col-md-6.col-lg-7.col-xl-8.mb-4.mb-md-0.order-2
+                h4 Dualidad fuerte
+                p Si ambos problemas tienen solución, entonces los valores óptimos de la función objetivo en el primal y el dual, son iguales.
+              .col-md-6.col-lg-5.col-xl-4.order-1
+                figure(data-aos="zoom-in")
+                  img(src='@/assets/curso/tema1/7.png', alt='')
+        
+          .tabs-content.border.px-4.p-md-5.py-3(titulo="Condiciones de complementariedad" :icon="require('@/assets/bullets/icon-tab-c-1.svg')" )
+            .row
+              .col-md-6.col-lg-7.col-xl-8.mb-4.mb-md-0.order-2
+                h4 Condiciones de complementariedad 
+                p #[strong 1.] Si una restricción en el PRIMAL no es activa (no se usa todo el recurso disponible), su correspondiente variable DUAL será cero.
 
-            p #[strong 2.] Esto significa que dicho recurso no tiene impacto en la optimización y su precio sombra es nulo.
-          .col-md-6.col-lg-5.col-xl-4.order-1
-            figure(data-aos="zoom-in")
-              img(src='@/assets/curso/tema1/8.png', alt='')
-    
-    h2 #[span] Interpretación económica
-    p El análisis de dualidad es clave en la toma de decisiones estratégicas en empresas y en la optimización de procesos, puesto que permite:
+                p #[strong 2.] Esto significa que dicho recurso no tiene impacto en la optimización y su precio sombra es nulo.
+              .col-md-6.col-lg-5.col-xl-4.order-1
+                figure(data-aos="zoom-in")
+                  img(src='@/assets/curso/tema1/8.png', alt='')
+        
+        h2 #[span] Interpretación económica
+        p El análisis de dualidad es clave en la toma de decisiones estratégicas en empresas y en la optimización de procesos, puesto que permite:
 
-    div.row.justify-content-center.align-items-stretch.mb-4
-      div.col-lg-4.mb-4(data-aos="zoom-in-up")
-        div.bg-color-white.box-shadow.px-4.py-5.h-100
-          img.mx-auto.d-block.mb-4(
-            src="@/assets/curso/tema1/9.svg"
-            alt=""
-            style="width: 90px"
-          )
-          h4.text-center Primero
-          p.mb-0.text-center Determinar el valor económico de los recursos escasos mediante los precios sombra.
-    
-      div.col-lg-4.mb-4(data-aos="zoom-in-up")
-        div.bg-color-white.box-shadow.px-4.py-5.h-100
-          img.mx-auto.d-block.mb-4(
-            src="@/assets/curso/tema1/10.svg"
-            alt=""
-            style="width: 90px"
-          )
-          h4.text-center Segundo
-          p.mb-0.text-center Evaluar la rentabilidad de adquirir más recursos, según los coeficientes del problema dual.
-    
-      div.col-lg-4.mb-4(data-aos="zoom-in-up")
-        div.bg-color-white.box-shadow.px-4.py-5.h-100
-          img.mx-auto.d-block.mb-4(
-            src="@/assets/curso/tema1/11.svg"
-            alt=""
-            style="width: 90px"
-          )
-          h4.text-center Tercero
-          p.mb-0.text-center Analizar la sensibilidad del modelo ante cambios en las restricciones, permitiendo ajustes estratégicos sin necesidad de reformular completamente el problema.
+        div.row.justify-content-center.align-items-stretch.mb-4
+          div.col-lg-4.mb-4(data-aos="zoom-in-up")
+            div.bg-color-white.box-shadow.px-4.py-5.h-100
+              img.mx-auto.d-block.mb-4(
+                src="@/assets/curso/tema1/9.svg"
+                alt=""
+                style="width: 90px"
+              )
+              h4.text-center Primero
+              p.mb-0.text-center Determinar el valor económico de los recursos escasos mediante los precios sombra.
+        
+          div.col-lg-4.mb-4(data-aos="zoom-in-up")
+            div.bg-color-white.box-shadow.px-4.py-5.h-100
+              img.mx-auto.d-block.mb-4(
+                src="@/assets/curso/tema1/10.svg"
+                alt=""
+                style="width: 90px"
+              )
+              h4.text-center Segundo
+              p.mb-0.text-center Evaluar la rentabilidad de adquirir más recursos, según los coeficientes del problema dual.
+        
+          div.col-lg-4.mb-4(data-aos="zoom-in-up")
+            div.bg-color-white.box-shadow.px-4.py-5.h-100
+              img.mx-auto.d-block.mb-4(
+                src="@/assets/curso/tema1/11.svg"
+                alt=""
+                style="width: 90px"
+              )
+              h4.text-center Tercero
+              p.mb-0.text-center Analizar la sensibilidad del modelo ante cambios en las restricciones, permitiendo ajustes estratégicos sin necesidad de reformular completamente el problema.
 
-  
+      
     .bg-full-width.bg-color-5.mb-5
       .px-4.px-md-5.py-4
         p.mb-0.text-white Por ejemplo, si en un problema de producción la harina es un recurso limitado y su precio sombra es alto, significa que agregar más harina incrementará significativamente la ganancia. Por el contrario, si el precio sombra de un recurso es cero, significa que dicho recurso no está limitando la producción y aumentar su disponibilidad no generará beneficios adicionales.
@@ -306,7 +308,7 @@
             .col-lg
 
               TarjetaAudio.color-acento-botones.bg-color-white(
-                texto="Proceso de descarga de MySQL Server Community y MySQL Workbench"
+                texto="Interpretación de resultados en los modelos primal y dual"
                 tiempo
                 :audio="require('../../assets/curso/podcast/podcast1.mp3')"
               ) 
@@ -316,98 +318,99 @@
     h2 Análisis de sensibilidad en la programación lineal
     p El análisis de sensibilidad permite evaluar cómo afectan los cambios en los coeficientes del modelo a la solución óptima. Es útil para:
 
-
-    .row.align-items-center.mb-5
-      .col-lg-8.order-2.order-lg-1
-    
-        LineaTiempoD.color-primario.large(data-aos="fade-right")
-          div(numero="1" titulo="Evaluar cambios en los coeficientes de la función objetivo")
-            ul.lista-ul--color.color-dark.mb-4
-              li.mb-0
-                i.fas.fa-arrow-circle-right
-                | Permite conocer #[strong hasta qué punto pueden modificarse los coeficientes sin afectar la solución óptima] (Hillier & Lieberman, 2010).
-              li.mb-2
-                i.fas.fa-arrow-circle-right
-                | Se responde a preguntas como:
-                
-                ul.lista-ul.mt-3
-                  li
-                    | ⊕ ¿Qué pasa si el precio de venta de un producto cambia?
-                  li
-                    | ⊕ ¿Hasta qué punto puede aumentar el costo de producción sin afectar la rentabilidad?
-              
-              p #[strong Ejemplo.] Una empresa de alimentos puede analizar si un aumento en el precio del trigo afecta la rentabilidad de la producción de pan (Suñé et al., 2016).
-          div(numero="2" titulo="Modificar los recursos disponibles (restricciones)")
-            ul.lista-ul--color.color-dark.mb-4
-              li.mb-0
-                i.fas.fa-arrow-circle-right
-                | Determina el impacto de #[strong agregar o reducir recursos] en la solución óptima (Taha, 2012).
-              li.mb-2
-                i.fas.fa-arrow-circle-right
-                | Se pueden tomar decisiones estratégicas como comprar más materia prima, contratar más empleados o reducir costos de almacenamiento.
-            
-              p #[strong Ejemplo.] Un operador logístico puede evaluar si agregar más camiones a su flota reducirá costos de transporte o si no tendrá un impacto significativo (Kong, 2013).
-          div(numero="3" titulo="Incorporación de nuevas restricciones")  
-            ul.lista-ul--color.color-dark.mb-4
-              li.mb-0
-                i.fas.fa-arrow-circle-right
-                | Evalúa si una nueva condición, como una limitación de producción o una regulación ambiental, afectaría la solución óptima (Puente Riofrío & Gavilánez Álvarez, 2018).
-              li.mb-2
-                i.fas.fa-arrow-circle-right
-                | Ayuda a anticipar cambios en la operación y realizar ajustes antes que ocurran problemas.
-            
-            p #[strong Ejemplo.] Una empresa de textiles puede evaluar el impacto de una nueva regulación ambiental que limite el uso de ciertos insumos en la producción (Hillier & Lieberman, 2010).
+    .bg-full-width-2.bg-fondo-2
+      .px-4.px-md-5
+        .row.align-items-center.mb-5
+          .col-lg-8.order-2.order-lg-1
         
-      .col-lg-4.order-1.order-lg-2
-        figure
-          img(src="@/assets/curso/tema1/15.png", alt="", data-aos="zoom-in").mb-4.mb-lg-0
-    
+            LineaTiempoD.color-primario.large(data-aos="fade-right")
+              div(numero="1" titulo="Evaluar cambios en los coeficientes de la función objetivo")
+                ul.lista-ul--color.color-dark.mb-4
+                  li.mb-0
+                    i.fas.fa-arrow-circle-right
+                    | Permite conocer #[strong hasta qué punto pueden modificarse los coeficientes sin afectar la solución óptima] (Hillier & Lieberman, 2010).
+                  li.mb-2
+                    i.fas.fa-arrow-circle-right
+                    | Se responde a preguntas como:
+                    
+                    ul.lista-ul.mt-3
+                      li
+                        | ⊕ ¿Qué pasa si el precio de venta de un producto cambia?
+                      li
+                        | ⊕ ¿Hasta qué punto puede aumentar el costo de producción sin afectar la rentabilidad?
+                  
+                  p #[strong Ejemplo.] Una empresa de alimentos puede analizar si un aumento en el precio del trigo afecta la rentabilidad de la producción de pan (Suñé et al., 2016).
+              div(numero="2" titulo="Modificar los recursos disponibles (restricciones)")
+                ul.lista-ul--color.color-dark.mb-4
+                  li.mb-0
+                    i.fas.fa-arrow-circle-right
+                    | Determina el impacto de #[strong agregar o reducir recursos] en la solución óptima (Taha, 2012).
+                  li.mb-2
+                    i.fas.fa-arrow-circle-right
+                    | Se pueden tomar decisiones estratégicas como comprar más materia prima, contratar más empleados o reducir costos de almacenamiento.
+                
+                  p #[strong Ejemplo.] Un operador logístico puede evaluar si agregar más camiones a su flota reducirá costos de transporte o si no tendrá un impacto significativo (Kong, 2013).
+              div(numero="3" titulo="Incorporación de nuevas restricciones")  
+                ul.lista-ul--color.color-dark.mb-4
+                  li.mb-0
+                    i.fas.fa-arrow-circle-right
+                    | Evalúa si una nueva condición, como una limitación de producción o una regulación ambiental, afectaría la solución óptima (Puente Riofrío & Gavilánez Álvarez, 2018).
+                  li.mb-2
+                    i.fas.fa-arrow-circle-right
+                    | Ayuda a anticipar cambios en la operación y realizar ajustes antes que ocurran problemas.
+                
+                p #[strong Ejemplo.] Una empresa de textiles puede evaluar el impacto de una nueva regulación ambiental que limite el uso de ciertos insumos en la producción (Hillier & Lieberman, 2010).
+            
+          .col-lg-4.order-1.order-lg-2
+            figure
+              img(src="@/assets/curso/tema1/15.png", alt="", data-aos="zoom-in").mb-4.mb-lg-0
+        
 
-    #Tarjetas2
-      div.row.justify-content-center.align-items-stretch.mb-5
-        div.col-lg-3.mb-4(data-aos="zoom-in-up")
-          div.bg-color-white.box-shadow.px-4.py-5.h-100
-            img.mx-auto.d-block.mb-4(
-              src="@/assets/curso/tema1/16.svg"
-              alt=""
-              style="width: 90px"
-            )
-            h4.text-center Primero
-            p.mb-0.text-center Facilita la toma de decisiones en entornos inciertos (Kong, 2013).
-      
-        div.col-lg-3.mb-4(data-aos="zoom-in-up")
-          div.bg-color-white.box-shadow.px-4.py-5.h-100
-            img.mx-auto.d-block.mb-4(
-              src="@/assets/curso/tema1/17.svg"
-              alt=""
-              style="width: 90px"
-            )
-            h4.text-center Segundo
-            p.mb-0.text-center Permite evaluar riesgos y oportunidades antes de hacer cambios en la operación (Hillier & Lieberman, 2010).
-      
-        div.col-lg-3.mb-4(data-aos="zoom-in-up")
-          div.bg-color-white.box-shadow.px-4.py-5.h-100
-            img.mx-auto.d-block.mb-4(
-              src="@/assets/curso/tema1/18.svg"
-              alt=""
-              style="width: 90px"
-            )
-            h4.text-center Tercero
-            p.mb-0.text-center Ayuda a optimizar costos y maximizar utilidades sin necesidad de reformular todo el modelo (Taha, 2012).
-    
-        div.col-lg-3.mb-4(data-aos="zoom-in-up")
-          div.bg-color-white.box-shadow.px-4.py-5.h-100
-            img.mx-auto.d-block.mb-4(
-              src="@/assets/curso/tema1/19.svg"
-              alt=""
-              style="width: 90px"
-            )
-            h4.text-center Cuarto
-            p.mb-0.text-center Proporciona información clave para negociaciones con proveedores y clientes (Puente Riofrío & Gavilánez Álvarez, 2018).
-    
-    
-    
-    
+        #Tarjetas2
+          div.row.justify-content-center.align-items-stretch.mb-5
+            div.col-lg-3.mb-4(data-aos="zoom-in-up")
+              div.bg-color-white.box-shadow.px-4.py-5.h-100
+                img.mx-auto.d-block.mb-4(
+                  src="@/assets/curso/tema1/16.svg"
+                  alt=""
+                  style="width: 90px"
+                )
+                h4.text-center Primero
+                p.mb-0.text-center Facilita la toma de decisiones en entornos inciertos (Kong, 2013).
+          
+            div.col-lg-3.mb-4(data-aos="zoom-in-up")
+              div.bg-color-white.box-shadow.px-4.py-5.h-100
+                img.mx-auto.d-block.mb-4(
+                  src="@/assets/curso/tema1/17.svg"
+                  alt=""
+                  style="width: 90px"
+                )
+                h4.text-center Segundo
+                p.mb-0.text-center Permite evaluar riesgos y oportunidades antes de hacer cambios en la operación (Hillier & Lieberman, 2010).
+          
+            div.col-lg-3.mb-4(data-aos="zoom-in-up")
+              div.bg-color-white.box-shadow.px-4.py-5.h-100
+                img.mx-auto.d-block.mb-4(
+                  src="@/assets/curso/tema1/18.svg"
+                  alt=""
+                  style="width: 90px"
+                )
+                h4.text-center Tercero
+                p.mb-0.text-center Ayuda a optimizar costos y maximizar utilidades sin necesidad de reformular todo el modelo (Taha, 2012).
+        
+            div.col-lg-3.mb-4(data-aos="zoom-in-up")
+              div.bg-color-white.box-shadow.px-4.py-5.h-100
+                img.mx-auto.d-block.mb-4(
+                  src="@/assets/curso/tema1/19.svg"
+                  alt=""
+                  style="width: 90px"
+                )
+                h4.text-center Cuarto
+                p.mb-0.text-center Proporciona información clave para negociaciones con proveedores y clientes (Puente Riofrío & Gavilánez Álvarez, 2018).
+        
+        
+        
+        
     
     .row.mb-5
       .col-lg-4
@@ -431,15 +434,11 @@
 
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/274611" target="_blank" rel="noopener noreferrer") De Castro Emilio Cerdá, F. J. A. L. M. (s/f). Las energías renovables en el ámbito internacional. Revistasice.com. 
-
-            p.d-flex.my-4
-              img.me-3(src='@/assets/template/book.svg' :style="{'max-width':'16px'}")
-              span De Janeiro, R. (1992). La declaración del Río sobre el Medio Ambiente y el Desarrollo. Río de Janeiro República Federativa del Brasil., aprobada en Estocolmo el, 16.
+              a(href="https://elibro.net/es/ereader/tecnologicadeloriente/74048" target="_blank" rel="noopener noreferrer") Taibo, A. (2002) Investigación de operaciones para no matemáticos. Instituto politécnico Nacional. 
 
             p.d-flex.my-4
               img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
-              a(href="https://youtu.be/QKLjwCMyv3M?si=uAWhO9tnyghljaJg" target="_blank" rel="noopener noreferrer") Innovación y sostenibilidad.
+              a(href="https://www.youtube.com/watch?v=_B0yxxnJfIs" target="_blank" rel="noopener noreferrer") GOAL PROJECT. (2017, 7 de octubre). Goal Project Análisis de Sensibilidad 01.
 
           .col-12.col-md-6.col-lg-3.offset-lg-1
             figure

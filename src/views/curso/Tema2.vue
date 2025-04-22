@@ -3,59 +3,60 @@
     BannerInterno(:subTitulo="'2. Problemas de transporte y asignación'")
     .container.tarjeta.tarjeta--blanca.p-4.p-md-5.overflow-hidden
   
-      
-      .row.mb-5
-        .col-lg-4.d-none.d-sm-block
-          figure
-            img(src="@/assets/curso/tema2/1.png", data-aos="zoom-in").mb-4.mb-lg-0
-        .col-lg-8
-          .bg-color-2.px-4.py-4(data-aos="fade-left").mb-4
-            p.mb-0 Los problemas de transporte y asignación, son una categoría fundamental dentro de la programación lineal y la investigación de operaciones. Estos modelos permiten optimizar la distribución de recursos desde múltiples orígenes hacia múltiples destinos, minimizando costos o maximizando beneficios. Se aplican en diversos sectores, como logística, manufactura, distribución de bienes y asignación de tareas (Taha, 2012).
-      
-          p En cualquier organización que maneje recursos limitados, la eficiencia en la asignación y distribución, es clave para reducir costos y mejorar la productividad. Los modelos de transporte y asignación permiten:
+      .bg-full-width-2.bg-fondo-3
+        .px-4.px-md-5
+          .row.mb-5
+            .col-lg-4.d-none.d-sm-block
+              figure
+                img(src="@/assets/curso/tema2/1.png", data-aos="zoom-in").mb-4.mb-lg-0
+            .col-lg-8
+              .bg-color-2.px-4.py-4(data-aos="fade-left").mb-4
+                p.mb-0 Los problemas de transporte y asignación, son una categoría fundamental dentro de la programación lineal y la investigación de operaciones. Estos modelos permiten optimizar la distribución de recursos desde múltiples orígenes hacia múltiples destinos, minimizando costos o maximizando beneficios. Se aplican en diversos sectores, como logística, manufactura, distribución de bienes y asignación de tareas (Taha, 2012).
+          
+              p En cualquier organización que maneje recursos limitados, la eficiencia en la asignación y distribución, es clave para reducir costos y mejorar la productividad. Los modelos de transporte y asignación permiten:
 
 
-      div.row.justify-content-center.align-items-stretch.mb-5
-        .col-lg-3.mb-4(data-aos="zoom-in-up")
-          div.bg-color-white.box-shadow.px-4.py-5.h-100
-            img.mx-auto.d-block.mb-4(
-              src="@/assets/curso/tema2/2.svg"
-              alt=""
-              style="width: 90px"
-            )
-            h4.text-center Primero
-            p.mb-0.text-center Optimizar rutas y costos en logística y distribución.
-      
-        .col-lg-3.mb-4(data-aos="zoom-in-up")
-          div.bg-color-white.box-shadow.px-4.py-5.h-100
-            img.mx-auto.d-block.mb-4(
-              src="@/assets/curso/tema2/3.svg"
-              alt=""
-              style="width: 90px"
-            )
-            h4.text-center Segundo
-            p.mb-0.text-center Mejorar la planificación de producción y abastecimiento.
-      
-        .col-lg-3.mb-4(data-aos="zoom-in-up")
-          div.bg-color-white.box-shadow.px-4.py-5.h-100
-            img.mx-auto.d-block.mb-4(
-              src="@/assets/curso/tema2/4.svg"
-              alt=""
-              style="width: 90px"
-            )
-            h4.text-center Tercero
-            p.mb-0.text-center Asignar tareas o recursos de manera eficiente en una organización.
-      
-        .col-lg-3.mb-4(data-aos="zoom-in-up")
-          div.bg-color-white.box-shadow.px-4.py-5.h-100
-            img.mx-auto.d-block.mb-4(
-              src="@/assets/curso/tema2/5.svg"
-              alt=""
-              style="width: 90px"
-            )
-            h4.text-center Cuarto
-            p.mb-0.text-center Reducir desperdicios y aumentar la rentabilidad de los procesos (Hillier & Lieberman, 2010).
-      
+          div.row.justify-content-center.align-items-stretch.mb-5
+            .col-lg-3.mb-4(data-aos="zoom-in-up")
+              div.bg-color-white.box-shadow.px-4.py-5.h-100
+                img.mx-auto.d-block.mb-4(
+                  src="@/assets/curso/tema2/2.svg"
+                  alt=""
+                  style="width: 90px"
+                )
+                h4.text-center Primero
+                p.mb-0.text-center Optimizar rutas y costos en logística y distribución.
+          
+            .col-lg-3.mb-4(data-aos="zoom-in-up")
+              div.bg-color-white.box-shadow.px-4.py-5.h-100
+                img.mx-auto.d-block.mb-4(
+                  src="@/assets/curso/tema2/3.svg"
+                  alt=""
+                  style="width: 90px"
+                )
+                h4.text-center Segundo
+                p.mb-0.text-center Mejorar la planificación de producción y abastecimiento.
+          
+            .col-lg-3.mb-4(data-aos="zoom-in-up")
+              div.bg-color-white.box-shadow.px-4.py-5.h-100
+                img.mx-auto.d-block.mb-4(
+                  src="@/assets/curso/tema2/4.svg"
+                  alt=""
+                  style="width: 90px"
+                )
+                h4.text-center Tercero
+                p.mb-0.text-center Asignar tareas o recursos de manera eficiente en una organización.
+          
+            .col-lg-3.mb-4(data-aos="zoom-in-up")
+              div.bg-color-white.box-shadow.px-4.py-5.h-100
+                img.mx-auto.d-block.mb-4(
+                  src="@/assets/curso/tema2/5.svg"
+                  alt=""
+                  style="width: 90px"
+                )
+                h4.text-center Cuarto
+                p.mb-0.text-center Reducir desperdicios y aumentar la rentabilidad de los procesos (Hillier & Lieberman, 2010).
+          
 
 
       h2.mb-5 Análisis de sensibilidad en la programación lineal
@@ -232,96 +233,117 @@
           p El método de aproximación es un enfoque heurístico que ayuda a encontrar una solución inicial rápida y factible, en problemas de transporte, minimizando los costos iniciales antes de aplicar un método de optimización más avanzado (Taha, 2012).
 
           p #[b Los tres métodos más comunes dentro de esta categoría son:]
-
-
-            
         .col-lg-4
           figure
             img(src="@/assets/curso/tema2/18.svg", alt="")
 
-      
-      .row.align-items-center.mb-5
-        .col-lg-8.order-2.order-lg-1
-      
-          LineaTiempoD.color-primario.large(data-aos="fade-right")
-            div(numero="1" titulo="Evaluar cambios en los coeficientes de la función objetivo")
-              ul.lista-ul--color.color-dark.mb-4
-                li.mb-1
-                  i.fas.fa-arrow-circle-right
-                  | Se inicia la asignación desde la celda superior izquierda (esquina noroeste) de la tabla de costos y se distribuyen unidades hasta agotar oferta o demanda.
-                li.mb-0
-                  i.fas.fa-arrow-circle-right
-                  | Se avanza de izquierda a derecha y luego hacia abajo, sin considerar los costos.
 
-              p.mb-0 #[b Ventaja.] Es simple y fácil de aplicar.
-              p.mb-0 #[b Desventaja.] No necesariamente produce la solución más eficiente.
-              
-
-            div(numero="2" titulo="Método del Costo Mínimo (MCM)")
-              p Contenido paso 2
-            div(numero="3" titulo="Método de Aproximación de Vogel (MVAM)")
-              p Contenido paso 3
+      .bg-full-width-2.bg-fondo-4
+        .px-4.px-md-5
+      
+          .row.align-items-center.mb-5
+            .col-lg-8.order-2.order-lg-1
           
-        .col-lg-4.order-1.order-lg-2
-          figure
-            img(src="@/assets/curso/tema2/19.png", alt="", data-aos="zoom-in").mb-4.mb-lg-0
-      
+              LineaTiempoD.color-primario.large(data-aos="fade-right")
+                div(numero="1" titulo="Evaluar cambios en los coeficientes de la función objetivo")
+                  ul.lista-ul--color.color-dark.mb-4
+                    li.mb-1
+                      i.fas.fa-arrow-circle-right
+                      | Se inicia la asignación desde la celda superior izquierda (esquina noroeste) de la tabla de costos y se distribuyen unidades hasta agotar oferta o demanda.
+                    li.mb-0
+                      i.fas.fa-arrow-circle-right
+                      | Se avanza de izquierda a derecha y luego hacia abajo, sin considerar los costos.
+
+                  p.mb-0 #[b Ventaja.] Es simple y fácil de aplicar.
+                  p.mb-0 #[b Desventaja.] No necesariamente produce la solución más eficiente.
+                  
+
+                div(numero="2" titulo="Método del Costo Mínimo (MCM)")
+                  p #[strong Concepto]
+                  ul.lista-ul--color.color-dark.mb-4
+                    li.mb-0
+                      i.fas.fa-arrow-circle-right
+                      | Se elige primero la celda con el menor costo de transporte y se asigna la mayor cantidad posible de unidades.
+                    li.mb-0
+                      i.fas.fa-arrow-circle-right
+                      | Se repite el proceso hasta completar todas las restricciones
+                  p.mb-2 #[strong Ventaja.] Tiende a generar soluciones más eficientes que el método de la Esquina Noroeste.
+                  p #[strong Desventaja.] No garantiza una solución óptima, pero es un buen punto de partida.
+                
+                  
+                div(numero="3" titulo="Método de Aproximación de Vogel (MVAM)")
+                  p #[strong Concepto]
+                  ul.lista-ul--color.color-dark.mb-4
+                    li.mb-0
+                      i.fas.fa-arrow-circle-right
+                      | Se calcula la penalización de cada fila y columna restando el menor costo del segundo menor.
+                    li.mb-0
+                      i.fas.fa-arrow-circle-right
+                      | Se elige la celda con mayor penalización para asignar recursos, asegurando que se reduzca el impacto del costo total.
+                  p.mb-2 #[strong Ventaja.] Generalmente encuentra soluciones iniciales más cercanas al óptimo.
+                  p #[strong Desventaja.] Más complejo de aplicar que los otros dos métodos.
+                
+              
+            .col-lg-4.order-1.order-lg-2
+              figure
+                img(src="@/assets/curso/tema2/19.png", alt="", data-aos="zoom-in").mb-4.mb-lg-0
+          
 
 
-      h2.mb-5 Método Simplex Mejorado: optimización para transporte y asignación
+          h2.mb-5 Método Simplex Mejorado: optimización para transporte y asignación
 
-      .row.mb-5
-        .col-lg-4
-          figure
-            img(src="@/assets/curso/tema2/20.png", data-aos="zoom-in")
-        .col-lg-8
-          .bg-color-1.p-4(data-aos="fade-left").mb-4
-            p.mb-0 El Método Simplex Mejorado es una variante optimizada del método Simplex Clásico. Se usa para refinar soluciones en problemas de transporte y asignación, asegurando que la solución sea óptima (Kong, 2013).
-      
-          p(data-aos="fade-left").mb-4 Las características del Método Simplex Mejorado, son:
-
-
-      div.row.justify-content-center.align-items-stretch.mb-5
-        div.col-lg-4.mb-4(data-aos="zoom-in-up")
-          div.bg-color-white.box-shadow.px-4.py-5.h-100
-            img.mx-auto.d-block.mb-4(
-              src="@/assets/curso/tema2/21.svg"
-              alt=""
-              style="width: 90px"
-            )
-            h4.text-center Reducción de iteraciones innecesarias
-            p.mb-0.text-center Se prioriza trabajar solo con las variables básicas relevantes.
-      
-        div.col-lg-4.mb-4(data-aos="zoom-in-up")
-          div.bg-color-white.box-shadow.px-4.py-5.h-100
-            img.mx-auto.d-block.mb-4(
-              src="@/assets/curso/tema2/22.svg"
-              alt=""
-              style="width: 90px"
-            )
-            h4.text-center Optimización más rápida
-            p.mb-0.text-center Se elimina la necesidad de realizar cálculos complejos en cada iteración.
-      
-        div.col-lg-4.mb-4(data-aos="zoom-in-up")
-          div.bg-color-white.box-shadow.px-4.py-5.h-100
-            img.mx-auto.d-block.mb-4(
-              src="@/assets/curso/tema2/23.svg"
-              alt=""
-              style="width: 90px"
-            )
-            h4.text-center Se aplica en programación lineal de gran escala
-            p.mb-0.text-center Útil para problemas de distribución de recursos en empresas con múltiples ubicaciones.
+          .row.mb-4
+            .col-lg-4
+              figure
+                img(src="@/assets/curso/tema2/20.png", data-aos="zoom-in")
+            .col-lg-8
+              .bg-color-1.p-4(data-aos="fade-left").mb-4
+                p.mb-0 El Método Simplex Mejorado es una variante optimizada del método Simplex Clásico. Se usa para refinar soluciones en problemas de transporte y asignación, asegurando que la solución sea óptima (Kong, 2013).
+          
+              p(data-aos="fade-left").mb-4 Las características del Método Simplex Mejorado, son:
 
 
-      .bg-full-width.bg-color-5
-        .px-4.px-md-5.py-4
-          .row.align-items-center
-            .col-lg-auto
-              img(src="@/assets/curso/tema2/24.svg", style="max-width: 90px").mx-auto
-            .col-lg
-              p.mb-0.text-white Ejemplo de aplicación. Una empresa de transporte quiere reducir costos de distribución en una red con más de 100 puntos de entrega. El Método Simplex Mejorado permite encontrar la mejor solución sin probar todas las combinaciones posibles (Hillier & Lieberman, 2010).
-      
-      
+          div.row.justify-content-center.align-items-stretch.mb-5
+            div.col-lg-4.mb-4(data-aos="zoom-in-up")
+              div.bg-color-white.box-shadow.px-4.py-5.h-100
+                img.mx-auto.d-block.mb-4(
+                  src="@/assets/curso/tema2/21.svg"
+                  alt=""
+                  style="width: 90px"
+                )
+                h4.text-center Reducción de iteraciones innecesarias
+                p.mb-0.text-center Se prioriza trabajar solo con las variables básicas relevantes.
+          
+            div.col-lg-4.mb-4(data-aos="zoom-in-up")
+              div.bg-color-white.box-shadow.px-4.py-5.h-100
+                img.mx-auto.d-block.mb-4(
+                  src="@/assets/curso/tema2/22.svg"
+                  alt=""
+                  style="width: 90px"
+                )
+                h4.text-center Optimización más rápida
+                p.mb-0.text-center Se elimina la necesidad de realizar cálculos complejos en cada iteración.
+          
+            div.col-lg-4.mb-4(data-aos="zoom-in-up")
+              div.bg-color-white.box-shadow.px-4.py-5.h-100
+                img.mx-auto.d-block.mb-4(
+                  src="@/assets/curso/tema2/23.svg"
+                  alt=""
+                  style="width: 90px"
+                )
+                h4.text-center Se aplica en programación lineal de gran escala
+                p.mb-0.text-center Útil para problemas de distribución de recursos en empresas con múltiples ubicaciones.
+
+
+          .bg-full-width.bg-color-5
+            .px-4.px-md-5.py-4
+              .row.align-items-center
+                .col-lg-auto
+                  img(src="@/assets/curso/tema2/24.svg", style="max-width: 90px").mx-auto
+                .col-lg
+                  p.mb-0.text-white Ejemplo de aplicación. Una empresa de transporte quiere reducir costos de distribución en una red con más de 100 puntos de entrega. El Método Simplex Mejorado permite encontrar la mejor solución sin probar todas las combinaciones posibles (Hillier & Lieberman, 2010).
+          
+          
       
 
       .bg-full-width.border-top.color-primario
@@ -333,15 +355,11 @@
   
               p.d-flex.my-4
                 img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-                a(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/274611" target="_blank" rel="noopener noreferrer") De Castro Emilio Cerdá, F. J. A. L. M. (s/f). Las energías renovables en el ámbito internacional. Revistasice.com. 
-  
-              p.d-flex.my-4
-                img.me-3(src='@/assets/template/book.svg' :style="{'max-width':'16px'}")
-                span De Janeiro, R. (1992). La declaración del Río sobre el Medio Ambiente y el Desarrollo. Río de Janeiro República Federativa del Brasil., aprobada en Estocolmo el, 16.
+                a(href="https://elibro.net/es/ereader/tecnologicadeloriente/39452" target="_blank" rel="noopener noreferrer") Vertiz G. y Martinez I (2014) Investigación de operaciones. Grupo editorial Patria. 
   
               p.d-flex.my-4
                 img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
-                a(href="https://youtu.be/QKLjwCMyv3M?si=uAWhO9tnyghljaJg" target="_blank" rel="noopener noreferrer") Innovación y sostenibilidad.
+                a(href="https://www.youtube.com/watch?v=A52Pql2CUKM" target="_blank" rel="noopener noreferrer") GOAL PROJECT. (2017, 30 de noviembre). Modelos de Redes 02 El Problema de Transporte. 
   
             .col-12.col-md-6.col-lg-3.offset-lg-1
               figure
