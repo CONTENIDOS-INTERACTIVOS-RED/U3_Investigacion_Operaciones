@@ -128,27 +128,6 @@ export default {
     },
     {
       referencia:
-        'Kong, M. (2013). Investigación de operaciones: programación lineal. Problemas de transporte. Análisis de redes: ( ed.). Fondo Editorial de la Pontificia Universidad Católica del Perú.',
-      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/79351',
-    },
-    {
-      referencia:
-        'Suñé, A. Fonollosa, J. B. & Fernández, V. (2016). Programación lineal: métodos cuantitativos para la toma de decisiones: ( ed.). Universitat Politècnica de Catalunya.',
-      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/61485',
-    },
-    {
-      referencia:
-        'Puente Riofrío, M. I., & Gavilánez Álvarez, Ó. D. (2018). Programación lineal para la toma de decisiones. Escuela Superior Politécnica de Chimborazo.',
-      link:
-        'https://cimogsys.espoch.edu.ec/direccion-publicaciones/public/docs/books/2019-09-19-210805-58%20Libro%20Programacio%CC%81n%20Lineal%20final.pdf',
-    },
-    {
-      referencia:
-        'Kong, M. (2013). Investigación de operaciones: programación lineal. Problemas de transporte. Análisis de redes: ( ed.). Fondo Editorial de la Pontificia Universidad Católica del Perú.',
-      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/79351',
-    },
-    {
-      referencia:
         'Suñé, A. Fonollosa, J. B. & Fernández, V. (2016). Programación lineal: métodos cuantitativos para la toma de decisiones: ( ed.). Universitat Politècnica de Catalunya.',
       link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/61485',
     },

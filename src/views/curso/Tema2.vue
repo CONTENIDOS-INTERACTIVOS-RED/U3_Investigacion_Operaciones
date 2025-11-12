@@ -182,7 +182,7 @@
           .row.justify-content-center.align-items-center
             .col-lg-8
               h2.mb-4(data-aos="flip-up") Ejemplo Problema de transporte
-              p.mb-4(data-aos="fade-right") En el PDF Ejemplo Problema de transporte , se analiza cómo aplicar modelos matemáticos de programación lineal para resolver un escenario de distribución eficiente entre almacenes y tiendas. A través del método de costos mínimos, se ejemplifica cómo asignar los envíos de manera óptima, reduciendo gastos y garantizando un equilibrio en la cadena de suministro.
+              p.mb-4(data-aos="fade-right") En el PDF Ejemplo Problema de transporte, se analiza cómo aplicar modelos matemáticos de programación lineal para resolver un escenario de distribución eficiente entre almacenes y tiendas. A través del método de costos mínimos, se ejemplifica cómo asignar los envíos de manera óptima, reduciendo gastos y garantizando un equilibrio en la cadena de suministro.
       
               a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_1.pdf')" target="_blank")(data-aos="flip-up")
                 .anexo__icono(:style="{'background-color': '#FCDFDB'}")
@@ -207,7 +207,6 @@
           .bg-color-1.p-4(data-aos="fade-left").mb-4
             p.mb-0 Para resolver problemas de transporte y asignación de recursos de manera eficiente, se utilizan diferentes métodos de solución dentro de la programación lineal. Entre los más utilizados están:
       
-          p(data-aos="fade-left").mb-4 Estos modelos tienen múltiples aplicaciones en la gestión logística, manufactura, planificación de producción y asignación de tareas, entre otros (Taha, 2012).
 
 
 
@@ -360,6 +359,18 @@
               p.d-flex.my-4
                 img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
                 a(href="https://www.youtube.com/watch?v=A52Pql2CUKM" target="_blank" rel="noopener noreferrer") GOAL PROJECT. (2017, 30 de noviembre). Modelos de Redes 02 El Problema de Transporte. 
+
+              p.d-flex.my-4
+                img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+                a(href="https://dudasytareas.wordpress.com/wp-content/uploads/2017/05/hillier_lieberman.pdf" target="_blank" rel="noopener noreferrer") Hillier F. S., Lieberman G. J. (2010) Introducción a la Investigación de Operaciones, Edit. Mc Graw Hill, 9ª ed.
+
+              p.d-flex.my-4
+                img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+                a(href="https://thelogisticsworld.com/logistica-y-distribucion/gestion-de-la-capacidad-de-transporte-planificacion-y-optimizacion-de-recursos-en-temporada-alta/" target="_blank" rel="noopener noreferrer") The Logistics World (2024). Gestión de la capacidad de transporte: Planificación y optimización de recursos en temporada alta.
+
+              p.d-flex.my-4
+                img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+                a(href="https://www.hiru.eus/es/matematicas/metodo-del-simplex-y-problema-del-transporte" target="_blank" rel="noopener noreferrer") Hiru.eus. (S.F) Método del símplex y problema del transporte.
   
             .col-12.col-md-6.col-lg-3.offset-lg-1
               figure

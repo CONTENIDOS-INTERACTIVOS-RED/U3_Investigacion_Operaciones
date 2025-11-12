@@ -117,7 +117,7 @@
 
       .bg-full-width-2.bg-fondo-5
         .px-4.px-md-5
-          h2.mb-4 Fundamentos de la Programación Lineal en la distribución de recursos
+          h2.mb-4 ¿Qué es WinQSB?
 
           .row.mb-2
             .col-lg-4
@@ -295,6 +295,10 @@
               p.d-flex.my-4
                 img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
                 a(href="https://www.youtube.com/watch?v=eWULmSLfu3E" target="_blank" rel="noopener noreferrer") GOAL PROJECT. (2020, 22 de marzo). Introducción a la Administración de Inventarios.
+
+              p.d-flex.my-4
+                img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+                a(href="https://www.mrpeasy.com/blog/es/ia-en-la-gestion-de-inventarios/" target="_blank" rel="noopener noreferrer") MPReasy (2023) El papel emergente de la IA en la gestión de inventarios (con ejemplos).
   
             .col-12.col-md-6.col-lg-3.offset-lg-1
               figure
@@ -312,7 +316,7 @@ export default {
   data() {
     return {
       cuestionario: {
-        tema: 'Herramientas colaborativas para la construcción de paz',
+        tema: 'Aplicaciones empresariales',
         titulo: 'Ponte a prueba',
         introduccion:
           'Demuestra lo que aprendiste en esta unidad y pon a prueba tus conocimientos.',
@@ -321,155 +325,168 @@ export default {
           {
             id: 1,
             texto:
-              'Complete los espacios en blanco con las opciones correctas: "La Programación Lineal permite optimizar _______________ en la toma de decisiones. Su aplicación principal es la resolución de problemas de _______________ y _______________ utilizando modelos matemáticos."',
+              '¿Cuál es la aplicación empresarial principal de la Dualidad en Programación Lineal?',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
               {
                 id: 'a',
-                texto: 'Beneficios, dualidad, economía',
+                texto:
+                  'Evaluación del impacto de restricciones en la rentabilidad.',
                 esCorrecta: false,
               },
               {
                 id: 'b',
-                texto: 'Recursos, maximización, minimización',
-                esCorrecta: true,
+                texto:
+                  'Asignación de empleados a turnos de trabajo de manera eficiente.',
+                esCorrecta: false,
               },
               {
                 id: 'c',
-                texto: 'Factores, programación no lineal, restricciones',
+                texto:
+                  'Optimización de costos de distribución de productos entre fábricas y tiendas.',
                 esCorrecta: false,
               },
               {
                 id: 'd',
-                texto: 'Costos, expansión, desarrollo',
-                esCorrecta: false,
+                texto:
+                  'Determinación del valor de los recursos escasos en una empresa.',
+                esCorrecta: true,
               },
             ],
-            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+            mensaje_correcto:
+              '¡Correcto! La dualidad permite determinar el valor económico de los recursos escasos mediante los precios sombra.',
+            mensaje_incorrecto:
+              'La respuesta no es correcta. La dualidad en programación lineal se utiliza principalmente para determinar el valor de los recursos escasos en una empresa.',
           },
           {
             id: 2,
             texto:
-              '¿Cuál de las siguientes afirmaciones describe mejor la función del método Simplex?',
+              '¿Cuál es el primer paso en la secuencia correcta para resolver un problema de transporte con programación lineal?',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto: 'Construir la tabla de costos de transporte.',
+                esCorrecta: false,
+              },
+              {
+                id: 'b',
+                texto:
+                  'Determinar la oferta de cada origen y la demanda de cada destino.',
+                esCorrecta: true,
+              },
+              {
+                id: 'c',
+                texto:
+                  'Aplicar un método de aproximación para obtener una solución inicial.',
+                esCorrecta: false,
+              },
+              {
+                id: 'd',
+                texto:
+                  'Interpretar los resultados y tomar decisiones estratégicas.',
+                esCorrecta: false,
+              },
+            ],
+            mensaje_correcto:
+              '¡Correcto! El primer paso es determinar la oferta de cada origen y la demanda de cada destino, ya que esta información es fundamental para construir el modelo.',
+            mensaje_incorrecto:
+              'La respuesta no es correcta. El primer paso es determinar la oferta de cada origen y la demanda de cada destino antes de construir la tabla de costos.',
+          },
+          {
+            id: 3,
+            texto:
+              'El método Simplex permite encontrar soluciones ___________ en problemas de programación lineal con múltiples restricciones.',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto: 'Aproximadas',
+                esCorrecta: false,
+              },
+              {
+                id: 'b',
+                texto: 'Óptimas',
+                esCorrecta: true,
+              },
+              {
+                id: 'c',
+                texto: 'Subóptimas',
+                esCorrecta: false,
+              },
+              {
+                id: 'd',
+                texto: 'Heurísticas',
+                esCorrecta: false,
+              },
+            ],
+            mensaje_correcto:
+              '¡Correcto! El método Simplex es un algoritmo que encuentra soluciones óptimas en problemas de programación lineal.',
+            mensaje_incorrecto:
+              'La respuesta no es correcta. El método Simplex encuentra soluciones óptimas, no aproximadas o subóptimas.',
+          },
+          {
+            id: 4,
+            texto:
+              'Una fábrica de muebles recibe una oferta de su proveedor de madera para comprar 30 unidades adicionales a un precio de $10 por unidad. El análisis de precios sombra indica que cada unidad de madera adicional genera una ganancia marginal de $12. ¿Es una decisión rentable comprar la madera adicional?',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
               {
                 id: 'a',
                 texto:
-                  'Es un método gráfico para resolver problemas con dos variables.',
-                esCorrecta: false,
+                  'Sí, porque la ganancia marginal es mayor al costo de la unidad adicional.',
+                esCorrecta: true,
               },
               {
                 id: 'b',
                 texto:
-                  'Es una técnica iterativa que encuentra soluciones óptimas en Programación Lineal.',
-                esCorrecta: true,
+                  'No, porque el precio sombra solo es relevante en la optimización inicial.',
+                esCorrecta: false,
               },
               {
                 id: 'c',
-                texto: 'Solo se utiliza en problemas de maximización.',
+                texto:
+                  'No, porque se debe considerar únicamente la demanda de los clientes.',
                 esCorrecta: false,
               },
               {
                 id: 'd',
                 texto:
-                  'Permite resolver ecuaciones diferenciales en entornos económicos.',
+                  'Sí, pero solo si la fábrica no tiene otras restricciones operativas.',
                 esCorrecta: false,
               },
             ],
-            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+            mensaje_correcto:
+              '¡Correcto! Cuando la ganancia marginal ($12) es mayor que el costo de la unidad adicional ($10), la compra es rentable.',
+            mensaje_incorrecto:
+              'La respuesta no es correcta. Si la ganancia marginal ($12) es mayor que el costo ($10), la compra es rentable.',
           },
           {
-            id: 3,
+            id: 5,
             texto:
-              'La región factible de un problema de Programación Lineal siempre contiene la solución óptima.',
+              'En un problema de programación lineal, si un recurso no es utilizado completamente, su precio sombra será positivo.',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
               {
                 id: 'a',
                 texto: 'Verdadero',
-                esCorrecta: true,
+                esCorrecta: false,
               },
               {
                 id: 'b',
                 texto: 'Falso',
-                esCorrecta: false,
-              },
-            ],
-            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-          },
-          {
-            id: 4,
-            texto:
-              '¿Cuál de los siguientes conceptos se refiere a las cantidades que se deben determinar en un problema de Programación Lineal?',
-            imagen: '',
-            barajarRespuestas: true,
-            opciones: [
-              {
-                id: 'a',
-                texto: 'Variables de decisión',
                 esCorrecta: true,
-              },
-              {
-                id: 'b',
-                texto: 'Función objetivo',
-                esCorrecta: false,
-              },
-              {
-                id: 'c',
-                texto: 'Restricciones',
-                esCorrecta: false,
-              },
-              {
-                id: 'd',
-                texto: 'Región factible',
-                esCorrecta: false,
               },
             ],
             mensaje_correcto:
-              '¡Correcto! Las variables de decisión son las cantidades desconocidas que se deben determinar para resolver el problema de Programación Lineal.',
+              '¡Correcto! El Teorema de Holguras Complementarias establece que si un recurso no es completamente utilizado, su precio sombra será cero, ya que no está afectando la función objetivo.',
             mensaje_incorrecto:
-              'La respuesta no es correcta. Recuerda que las variables de decisión son las cantidades que necesitamos determinar en el problema.',
-          },
-          {
-            id: 5,
-            texto:
-              '¿Qué representa la función objetivo en un problema de Programación Lineal?',
-            imagen: '',
-            barajarRespuestas: true,
-            opciones: [
-              {
-                id: 'a',
-                texto: 'El conjunto de todas las soluciones posibles',
-                esCorrecta: false,
-              },
-              {
-                id: 'b',
-                texto: 'Las limitaciones del problema',
-                esCorrecta: false,
-              },
-              {
-                id: 'c',
-                texto:
-                  'La expresión matemática que se busca maximizar o minimizar',
-                esCorrecta: true,
-              },
-              {
-                id: 'd',
-                texto: 'El punto que optimiza la solución',
-                esCorrecta: false,
-              },
-            ],
-            mensaje_correcto:
-              '¡Correcto! La función objetivo es la expresión matemática que queremos optimizar (maximizar o minimizar) en el problema de Programación Lineal.',
-            mensaje_incorrecto:
-              'La respuesta no es correcta. La función objetivo es la expresión matemática que buscamos optimizar en el problema.',
+              'La respuesta no es correcta. Si un recurso no es utilizado completamente, su precio sombra será cero, no positivo.',
           },
         ],
         mensaje_final_aprobado:

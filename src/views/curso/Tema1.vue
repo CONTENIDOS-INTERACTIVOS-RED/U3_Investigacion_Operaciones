@@ -1,6 +1,6 @@
 <template lang="pug">
 .curso-main-container.pb-3
-  BannerInterno(:subTitulo="'1. Conceptos básicos y aplicaciones en la administración'")
+  BannerInterno(:subTitulo="'1. Teoría de la dualidad y análisis de sensibilidad'")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.overflow-hidden
 
 
@@ -366,6 +366,8 @@
               img(src="@/assets/curso/tema1/15.png", alt="", data-aos="zoom-in").mb-4.mb-lg-0
         
 
+        p.mb-2 Importancia del análisis de sensibilidad en la toma de decisiones:
+
         #Tarjetas2
           div.row.justify-content-center.align-items-stretch.mb-5
             div.col-lg-3.mb-4(data-aos="zoom-in-up")
@@ -439,6 +441,10 @@
             p.d-flex.my-4
               img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
               a(href="https://www.youtube.com/watch?v=_B0yxxnJfIs" target="_blank" rel="noopener noreferrer") GOAL PROJECT. (2017, 7 de octubre). Goal Project Análisis de Sensibilidad 01.
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://www.academia.edu/39121762/analisis_de_dualidad_y_sensibilidad" target="_blank" rel="noopener noreferrer") Academia.edu (S.F) análisis de dualidad y sensibilidad.
 
           .col-12.col-md-6.col-lg-3.offset-lg-1
             figure
